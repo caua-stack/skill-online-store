@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat",Sans-serif;
+}
+/* ----------------------------------------- */
+.header1 {
+    color: white;
+    background-color: rgb(177, 132, 229);
+    padding: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icone1 {
+    color: white;
+}
+
+.div1 {
+    display: flex;
+    position: absolute;
+    left: 25px;
+}
+/* ----------------------------------------- */
+.header2 {
+    background-color: white;
+    border-top: 1px solid rgb(177, 132, 229);
+    border-bottom: 1px solid rgb(177, 132, 229);
+}
+
+.div2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px;
+} 
+
+img {
+    width: 225px;
+    padding-left: 50px;
+}
+
+#barra--de--pesquisa {
+    border: 1px solid #bdbdbd;
+    font-size: 14px;
+    border-radius: 10px;
+    padding: 10px;
+    width: 300px;
+}
+
+.input {
+    display: flex;
+}
+
+
+
+/* ----------------------------------------- */
+.nav-1 {
+    display: flex;
+    justify-content: center;
+    gap: 45px;
+} 
+
+.p-1 {
+    color: #3d3d3d;
+    padding: 14px;
+}
+
+.a-1 {
+    text-decoration: none;
+    transition: background-color 0.9s;
+}   
+
+.a-1:hover {
+    background-color: rgb(177, 132, 229);
+} 
